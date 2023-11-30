@@ -1,0 +1,54 @@
+.animate {
+  -webkit-animation: 3s clrAn infinite alternate;
+  -moz-animation: 3s clrAn infinite alternate;
+  -o-animation: 3s clrAn infinite alternate;
+  animation: 3s clrAn infinite alternate;
+}
+
+@-webkit-keyframes clrAn {
+  0% {
+    fill: #7e0e42;
+    stroke: #d8756d;
+  }
+
+  100% {
+    fill: rgb(14, 21, 126);
+    stroke: black;
+  }
+}
+
+@-moz-keyframes clrAn {
+  0% {
+    fill: #7e0e42;
+    stroke: #d8756d;
+  }
+
+  100% {
+    fill: rgb(14, 21, 126);
+    stroke: black;
+  }
+}
+
+@-o-keyframes clrAn {
+  0% {
+    fill: #7e0e42;
+    stroke: #d8756d;
+  }
+
+  100% {
+    fill: rgb(14, 21, 126);
+    stroke: black;
+  }
+}
+
+@keyframes clrAn {
+  0% {
+    fill: #7e0e42;
+    stroke: #d8756d;
+  }
+
+  100% {
+    fill: rgb(14, 21, 126);
+    stroke: black;
+  }
+}
